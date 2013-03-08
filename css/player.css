@@ -1,0 +1,110 @@
+
+body{
+    background: black ;
+}
+
+.controls{
+    background: url('../images/player_off.png');
+    height: 64px;
+    width: 988px;
+    position: relative;
+    margin: 0;
+    font-family: 'Calibri';
+}
+
+#loading {
+    background: #fff;
+    background: #939eaa;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eaeef1), to(#c7cfd8));
+    background: -moz-linear-gradient(top, #eaeef1, #c7cfd8);
+    background: linear-gradient(top, #eaeef1, #c7cfd8);
+    -webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -o-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    min-width: 6px;
+    height: 6px;
+}
+
+#handle {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background: url(../images/buttons.png) no-repeat -65px -5px;
+    cursor: pointer;
+}
+
+#gutter{
+    position: absolute;
+    top: 42px;
+    left: 380px;
+    right: 320px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background: transparent url("../images/slider.png") 0 0 repeat-x;
+    /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff6600), to(#ff6600));
+    background: -moz-linear-gradient(top, #242f3b, #516070);
+    background: linear-gradient(top, #242f3b, #516070);
+    -webkit-box-shadow: 0 1px 2px rgba(20, 30, 40, .75) inset, 0 0px 0 rgba(176, 187, 198, .5);
+    -moz-box-shadow: 0 1px 2px rgba(20, 30, 40, .75) inset, 0 0px 0 rgba(176, 187, 198, .5);
+    -o-box-shadow: 0 1px 2px rgba(20, 30, 40, .75) inset, 0 0px 0 rgba(176, 187, 198, .5);
+    box-shadow: 0 1px 2px rgba(20, 30, 40, .75) inset, 0 0px 0 rgba(176, 187, 198, .5);
+    */
+}
+
+
+#playtoggle.playing {
+    background-position: 0 0;
+}
+
+#playtoggle:active {
+    top: 16px;
+}
+
+#timeleft{
+    top: 21px;
+    right: 278px;
+    line-height: 48px;
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    color: #b5b3b4;
+    text-shadow: 0 1px 0 #546374;
+}
+#playlist{
+    color: white;
+}
+#playtoggle{
+    position: absolute;
+    top: 16px;
+    left: 130px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/buttons.png) no-repeat -30px 0;
+    cursor: pointer;
+}
+
+#expander{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 61px;
+    width:61px;
+}
+
+
+

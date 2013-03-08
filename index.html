@@ -4,8 +4,13 @@
     <meta charset="utf-8" />
     <title>Александр Ермаков</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/player.css" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.ui.min.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/jquery.popupWindow.js"></script>
   </head>
   <body>
     <div id="page">
@@ -174,9 +179,9 @@
       <div id="player">
 
         <div class="wrapper">
-          <div class="controls"  onclick="var p = document.getElementById('player'); p.className.match(/expanded/) ? p.className = p.className.replace(/expanded/, '') : p.className += ' expanded'">
+          <!--<div class="controls"  onclick="var p = document.getElementById('player'); p.className.match(/expanded/) ? p.className = p.className.replace(/expanded/, '') : p.className += ' expanded'">
 
-          </div>
+          </div>-->
 
           <div class="expansion">
             <div class="gallery">
@@ -212,9 +217,9 @@
               <div class="content">
                 <div class="items">
 
-                  <a href="#" class="item played">
+                  <a href="#" data-source="http://78.47.220.210/paul" class="item active">
                     <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                    <span class="title">Paul McCartney</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
@@ -223,9 +228,9 @@
                     </span>
                   </a>
 
-                  <a href="#" class="item active">
-                    <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                  <a href="#" data-source="http://78.47.220.210/akvarium" class="item">
+                    <span class="number">02</span>
+                    <span class="title">Аквариум</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
@@ -234,9 +239,9 @@
                     </span>
                   </a>
 
-                  <a href="#" class="item">
-                    <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                  <a href="#" data-source="http://78.47.220.210/pushnoy" class="item">
+                    <span class="number">03</span>
+                    <span class="title">Александр Пушной</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
@@ -245,9 +250,9 @@
                     </span>
                   </a>
 
-                  <a href="#" class="item">
-                    <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                  <a href="#" data-source="http://78.47.220.210/paul" class="item played">
+                    <span class="number">04</span>
+                    <span class="title">Paul McCartney</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
@@ -256,9 +261,9 @@
                     </span>
                   </a>
 
-                  <a href="#" class="item">
-                    <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                  <a href="#" data-source="http://78.47.220.210/akvarium" class="item">
+                    <span class="number">05</span>
+                    <span class="title">Аквариум</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
@@ -267,9 +272,9 @@
                     </span>
                   </a>
 
-                  <a href="#" class="item">
-                    <span class="number">01</span>
-                    <span class="title">Ничего не взять с собой</span>
+                  <a href="#" data-source="http://78.47.220.210/pushnoy" class="item">
+                    <span class="number">06</span>
+                    <span class="title">Александр Пушной</span>
                     <span class="alboum">Альбом: <span>Откровение</span></span>
                     <span class="time">
                       <span class="current">00:00</span>
