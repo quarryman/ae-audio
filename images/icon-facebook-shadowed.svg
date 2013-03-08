@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X6 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="621.59998"
+   height="621.60236"
+   version="1.1"
+   style="fill-rule:evenodd"
+   viewBox="0 0 17542.933 17543"
+   id="svg4279"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="icon-facebook-shadowed.svg"><metadata
+   id="metadata4298"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1440"
+   inkscape:window-height="852"
+   id="namedview4296"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.22425739"
+   inkscape:cx="-648.71856"
+   inkscape:cy="310.88976"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg4279" />
+ <defs
+   id="defs4281">
+  <style
+   type="text/css"
+   id="style4283">
+   
+    .fil1 {fill:#8C8C8C;fill-rule:nonzero}
+    .fil0 {fill:white;fill-rule:nonzero}
+   
+  </style>
+ </defs>
+ <g
+   id="Слой_x0020_1"
+   transform="translate(-4544.0335,-6081)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <g
+   id="_703459504">
+   <path
+   class="fil0"
+   d="m 17391,11762 -2776,0 0,-1821 c 0,-684 453,-843 772,-843 319,0 1959,0 1959,0 l 0,-3006 -2697,-11 c -2996,0 -3677,2242 -3677,3677 l 0,2004 -1732,0 0,3097 1732,0 c 0,3974 0,8765 0,8765 l 3644,0 c 0,0 0,-4838 0,-8765 l 2458,0 318,-3097 z"
+   id="path4288"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;fill-rule:nonzero" />
+   <path
+   class="fil1"
+   d="m 17346,6640 0,-548 -2697,-11 c -2996,0 -3677,2242 -3677,3677 l 0,548 c 0,-1435 682,-3677 3677,-3677 l 2697,11 z"
+   id="path4290"
+   inkscape:connector-curvature="0"
+   style="fill:#8c8c8c;fill-rule:nonzero" />
+   <polygon
+   class="fil1"
+   points="14615,11762 14615,12310 17335,12310 17391,11762 "
+   id="polygon4292"
+   style="fill:#8c8c8c;fill-rule:nonzero" />
+   <polygon
+   class="fil1"
+   points="9239,11762 9239,12310 10971,12310 10971,11762 "
+   id="polygon4294"
+   style="fill:#8c8c8c;fill-rule:nonzero" />
+  </g>
+ </g>
+</svg>
