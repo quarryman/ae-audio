@@ -1,5 +1,33 @@
+var ExtendedAudio = function (path) {
+    this.audio = this.getAudioSelector();
+    this.src(path);
+}
+
+ExtendedAudio.prototype = {
+    src: function (file) {
+        //alert('prototype method called');
+        var codec = this.getSupport();
+        if (!codec) throw 'Your browser doesnt support audio';
+        this.audio.src = file.replace(/\*/g, this.getSupport());
+        this.audio.load();
+        return this;
+    },
+    getSupport: function () {
+        return !this.audio.canPlayType ? false :
+            this.audio.canPlayType('audio/ogg;')  ? 'ogg' :
+                this.audio.canPlayType('audio/mpeg;') ? 'mp3' : false;
+    },
+    getAudioSelector: function () {
+        return $('audio')[0];
+    },
+    play: function () {
+        this.audio.play();
+    }
+};
+
 $(function () {
     var tracks = [];
+
 	initAudio();
     $('.playlist a.item').click(function (e) {
         var activeClass = "active";
@@ -121,8 +149,9 @@ function initAudio() {
 }
 
 function loadNewTrack (path) {
+    var audio = new ExtendedAudio(path);
     // @todo cach variable
-    var audio = $('audio')
+    /*var audio = $('audio')
         , sources = audio.children('source')
         , extentions = [".mp3", ".ogg", ".vaw"];
 
@@ -133,7 +162,7 @@ function loadNewTrack (path) {
     if (!audio[0].paused)
         audio[0].pause();
 
-    audio.load();
+    audio.load();*/
     return;
 }
 function Play () {
