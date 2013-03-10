@@ -11,6 +11,7 @@
     <script src="./js/jquery.ui.min.js"></script>
     <script src="./js/player.js"></script>
     <script src="./js/jquery.popupWindow.js"></script>
+    <script src="./js/ajax.js"></script>
   </head>
   <body>
     <div id="page">
@@ -18,9 +19,9 @@
         <embed class="logo" src="logo2.svg" type="image/svg+xml" />
         <ul class="primary-links">
           <li class="active"><a href="index.html">Главная</a><span></span><span></span></li>
-          <li><a href="alboum.html">Музыка</a><span></span><span></span></li>
-          <li><a href="video.html">Видео</a><span></span><span></span></li>
-          <li><a href="photo.html">Фото</a><span></span><span></span></li>
+          <li><a href="alboum.html" data-body-required-class="inside alboum">Музыка</a><span></span><span></span></li>
+          <li><a href="video.html" data-body-required-class="inside video">Видео</a><span></span><span></span></li>
+          <li><a href="photo.html" data-body-required-class="inside photo">Фото</a><span></span><span></span></li>
           <li><a href="text.html">Авторы</a><span></span><span></span></li>
           <li><a href="billboard.html">Афиша</a><span></span><span></span></li>
           <li><a href="guest.html">Гостевая</a><span></span><span></span></li>
