@@ -1,7 +1,7 @@
 $(function () {
     $('ul.primary-links a').click( function (e) {
         var requestUrl = $(this).attr('href'),
-            urlPrefix = "/ae-audio/ajax/",
+            urlPrefix = "/ajax/",
             bodyClass;
         console.log(urlPrefix + requestUrl);
 
