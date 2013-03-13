@@ -77,9 +77,8 @@ function initAudio() {
 									  </span>\
 									  <span id="timeleft" />\
 									  <audio preload="metadata">\
-									    <source src="/paul.ogg" type="audio/ogg"></source>\
-										<source src="/paul.mp3" type="audio/mpeg"></source>\
-										<source src="/paul.wav" type="audio/x-wav"></source>\
+									    <source src="/audio/01_ti_odna.ogg" type="audio/ogg"></source>\
+										<source src="/audio/01_ti_odna.mp3" type="audio/mpeg"></source>\
 									  </audio>\
 									</p>';									
 		
